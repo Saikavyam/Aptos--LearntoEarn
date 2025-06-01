@@ -109,7 +109,7 @@ Choose from one of the following:
 ```bash
 # 1. Clone the repository
 git clone https://github.com/Saikavyam/Aptos--LearntoEarn.git
-cd aptos-learn
+cd Aptos--LearntoEarn
 
 # 2. Install dependencies
 cd client
