@@ -1,63 +1,127 @@
-Project Title:
+# Aptos Learn 🚀  
+*Where Learned Skills Auto-Convert to Aptos Earnings & Resume Credentials*
 
-Aptos Learn - Where Learned Skills Auto-Convert to Aptos Earnings & Resume Credentials
+## 🧩 Overview
 
-Selected Domain:
-Web Development
+**Aptos Learn** is an innovative **Learn-to-Earn** Web3 platform that transforms learning into a rewarding experience. By integrating **blockchain technology** and gamification, it incentivizes users to complete educational tasks and grow their skills. Users earn **Aptos tokens**, receive **NFT-based certificates**, and build a **blockchain-verified resume**, empowering them in both Web2 and Web3 ecosystems.
 
-Problem Statement
+## 🧠 Problem Statement
 
-In today's rapidly evolving digital era, continuous learning has become a necessity, yet motivation to learn often diminishes due to lack of tangible incentives and engagement. Additionally, blockchain technologies remain underutilized in educational platforms. This project bridges these gaps by creating a platform that rewards users with Aptos tokens for completing educational tasks, motivating them to gain new skills while exploring decentralized systems.
+In the current digital landscape:
+- Motivation for continuous learning is declining.
+- Blockchain adoption in educational platforms is minimal.
 
+**Aptos Learn** solves these issues by:
+- Rewarding learners with tangible assets (Aptos tokens).
+- Introducing blockchain to the learning process through NFTs and transparent credentials.
 
-Problem Description
+## 🔍 Problem Description
 
-The Learn-to-Earn platform is an innovative educational system that gamifies learning by integrating blockchain technology. Users are rewarded with Aptos tokens for successfully completing tasks, quizzes, and courses. By combining transparent, decentralized reward systems with educational engagement, the platform addresses two major challenges: declining learner motivation and blockchain adoption barriers. Learners can track their progress, earn certificates, and showcase their achievements on a blockchain-verified resume. This solution empowers users, incentivizes knowledge acquisition, and drives skill development while familiarizing them with emerging Web3 technologies.
+Aptos Learn gamifies education. Users:
+- Complete tasks and quizzes.
+- Earn Aptos tokens as incentives.
+- Receive verifiable blockchain-based certificates.
+- Showcase achievements on a decentralized resume.
 
+This addresses:
+- Learner disengagement.
+- Lack of real-world value from e-learning.
+- Hesitation toward Web3 technologies.
 
-Tech Stack Used:
+---
 
-Frontend: React.js, TailwindCSS
-Backend:Node.js, Express.js, and RESTful APIs.
-Database: MongoDB for storing user data, progress, course modules, and wallet information.
-Blockchain Integration: Aptos blockchain for token rewards and certificate issuance.
-Deployment: AWS / Vercel / Firebase for hosting and CI/CD pipelines.
-Project Explanation: Project Features:
+## 🛠 Tech Stack
 
-User Portal:
+| Layer         | Tech Used                                             |
+|---------------|--------------------------------------------------------|
+| Frontend      | React.js, TailwindCSS                                  |
+| Backend       | Node.js, Express.js, RESTful APIs                      |
+| Database      | MongoDB                                                |
+| Blockchain    | Aptos Blockchain (for rewards & NFT-based certificates)|
+| Deployment    | AWS / Vercel / Firebase                                |
 
-Connect Wallet: Allows users to securely connect their Aptos wallet after entering wallet ID.
-Courses: Display a marketplace of tasks and quizzes categorized by domain and skill level.
-Leaderboard: Gamified ranking system for top learners based on tokens earned and milestones.
-Progress Tracking: Saves user progress in courses and allows resumption.
-Certificates: Generate blockchain-based certificates for completed courses.
-Resume: Showcase user achievements with verified courses and certificates.
-Admin Portal:
+---
 
-Drafts Management: Automatically saves unpublished courses as drafts.
-Course Publishing: Publishes courses, making them visible to learners.
-Edit/Delete Courses: Provides functionality to edit course details or delete unwanted entries.
-Statistics Dashboard: Tracks total tasks completed, active users, and rewards distributed.
-Quest Management: Create and manage gamified challenges for users.
-Blockchain Integration:
+## 🌐 Project Features
 
-Secure Aptos wallet integration for reward token storage.
-Tamper-proof NFT certifications tied to the blockchain.
-Transparent recording of all transactions.
-Functionality Overview:
-Flow for Users:
+### 👩‍🎓 User Portal
+- **Connect Wallet**: Seamless Aptos wallet integration.
+- **Courses**: Explore a categorized library of tasks & quizzes.
+- **Leaderboard**: Track your rank based on Aptos tokens earned.
+- **Progress Tracking**: Resume exactly where you left off.
+- **Certificates**: Blockchain-issued NFT certificates for achievements.
+- **Resume Builder**: Auto-updated resume with verified credentials.
 
-Register and log in via a professional portal.
-Connect their wallet and explore available courses.
-Start a course, complete tasks, and earn Aptos tokens.
-Access certificates and showcase verified achievements in their resume.
+### 🛠 Admin Portal
+- **Drafts Management**: Auto-saves unfinished courses.
+- **Course Publishing**: Launch and manage content easily.
+- **Edit/Delete Courses**: Full CRUD functionality.
+- **Statistics Dashboard**: Monitor users, tasks, and reward data.
+- **Quest Management**: Create gamified challenges for extra engagement.
 
-Flow for Admins:
+### 🔗 Blockchain Integration
+- **Secure Aptos Wallets**: Manage token rewards & store NFTs.
+- **NFT Certificates**: Tamper-proof proof of learning.
+- **Transaction Logging**: Transparent, immutable achievement tracking.
 
-1.Manage drafts and publish courses.
-2.Edit/delete courses and monitor statistics.
-3.Design quests and manage reward pools.
+---
 
+## 🔁 Functional Flow
 
-Outcome:
-The platform drives learning, incentivizes knowledge acquisition, and promotes blockchain adoption through gamified modules and reward systems.
+### 👤 User Flow
+1. Register/Login via secure portal.
+2. Connect Aptos Wallet.
+3. Browse and enroll in courses.
+4. Complete tasks & quizzes.
+5. Earn tokens & NFTs.
+6. Access blockchain-based certificates & updated resume.
+
+### 👨‍💼 Admin Flow
+1. Create and save courses as drafts.
+2. Publish or update course content.
+3. Monitor platform engagement & reward distribution.
+4. Design quests to enhance user participation.
+
+---
+
+## 📸 Screenshots (Optional)
+
+> Add screenshots or GIFs showing:
+> - Course UI
+> - Wallet connection
+> - Leaderboard
+> - Blockchain resume & NFT certificate
+
+---
+
+## 🚀 Deployment
+
+Choose from one of the following:
+- **Frontend**: Vercel / Firebase Hosting
+- **Backend**: AWS EC2 or Firebase Functions
+- **Database**: MongoDB Atlas (Cloud)
+- **CI/CD**: GitHub Actions / Vercel pipelines
+
+---
+
+## 🧪 Local Development Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Saikavyam/Aptos--LearntoEarn.git
+cd aptos-learn
+
+# 2. Install dependencies
+cd client
+npm install
+
+cd ../server
+npm install
+
+# 3. Run frontend and backend
+cd ../client
+npm run dev
+
+cd ../server
+node index.js
+
