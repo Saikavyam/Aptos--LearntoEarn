@@ -1,15 +1,20 @@
 Project Title:
 
 Aptos Learn - Where Learned Skills Auto-Convert to Aptos Earnings & Resume Credentials
-Selected Domain:
 
+Selected Domain:
 Web Development
+
 Problem Statement
 
 In today's rapidly evolving digital era, continuous learning has become a necessity, yet motivation to learn often diminishes due to lack of tangible incentives and engagement. Additionally, blockchain technologies remain underutilized in educational platforms. This project bridges these gaps by creating a platform that rewards users with Aptos tokens for completing educational tasks, motivating them to gain new skills while exploring decentralized systems.
+
+
 Problem Description
 
 The Learn-to-Earn platform is an innovative educational system that gamifies learning by integrating blockchain technology. Users are rewarded with Aptos tokens for successfully completing tasks, quizzes, and courses. By combining transparent, decentralized reward systems with educational engagement, the platform addresses two major challenges: declining learner motivation and blockchain adoption barriers. Learners can track their progress, earn certificates, and showcase their achievements on a blockchain-verified resume. This solution empowers users, incentivizes knowledge acquisition, and drives skill development while familiarizing them with emerging Web3 technologies.
+
+
 Tech Stack Used:
 
 Frontend: React.js, TailwindCSS
@@ -46,10 +51,13 @@ Register and log in via a professional portal.
 Connect their wallet and explore available courses.
 Start a course, complete tasks, and earn Aptos tokens.
 Access certificates and showcase verified achievements in their resume.
+
 Flow for Admins:
 
-Manage drafts and publish courses.
-Edit/delete courses and monitor statistics.
-Design quests and manage reward pools.
+1.Manage drafts and publish courses.
+2.Edit/delete courses and monitor statistics.
+3.Design quests and manage reward pools.
+
+
 Outcome:
 The platform drives learning, incentivizes knowledge acquisition, and promotes blockchain adoption through gamified modules and reward systems.
