@@ -1,6 +1,6 @@
 # Aptos Learn 🚀  
 *Where Learned Skills Auto-Convert to Aptos Earnings & Resume Credentials*
-
+🔗 **Live Site**: *(https://aptos-learn.vercel.app/)*
 ## 🧩 Overview
 
 **Aptos Learn** is an innovative **Learn-to-Earn** Web3 platform that transforms learning into a rewarding experience. By integrating **blockchain technology** and gamification, it incentivizes users to complete educational tasks and grow their skills. Users earn **Aptos tokens**, receive **NFT-based certificates**, and build a **blockchain-verified resume**, empowering them in both Web2 and Web3 ecosystems.
