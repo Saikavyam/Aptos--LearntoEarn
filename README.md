@@ -95,7 +95,7 @@ This addresses:
 ---
 
 ## 🚀 Deployment
-
+🔗 **Live Site**: *(https://aptos-learn.vercel.app/login)*
 Choose from one of the following:
 - **Frontend**: Vercel / Firebase Hosting
 - **Backend**: AWS EC2 or Firebase Functions
